@@ -674,8 +674,8 @@ class SceneEnv(ManipSpaceEnv):
                     ob_info['privileged/window_vel'],
                 ]
             )
-
-            return np.concatenate(ob)
+            # Clean RL environments expected dtype
+            return np.concatenate(ob).astype(np.float32)
 
     def compute_oracle_observation(self):
         """Return the oracle goal representation of the current state."""
