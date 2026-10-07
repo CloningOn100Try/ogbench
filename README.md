@@ -2,7 +2,7 @@
 <img src="assets/ogbench.svg" width="300px"/>
 
 <div id="user-content-toc">
-  <ul align="center" style="list-style: none;">
+  <ul align="center" type="none">
     <summary>
       <h1>OGBench: Benchmarking Offline Goal-Conditioned RL</h1>
     </summary>
@@ -18,7 +18,7 @@
 ![image](assets/env_teaser.png)
 
 <div id="toc">
-  <ul align="center" style="list-style: none;">
+  <ul align="center" type="none">
     <summary>
       <h2><a href="https://arxiv.org/abs/2410.20092">Paper</a> &emsp; <a href="https://seohong.me/projects/ogbench/">Project page</a></h2>
     </summary>
